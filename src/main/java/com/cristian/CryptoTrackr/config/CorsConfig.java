@@ -12,7 +12,7 @@ public class CorsConfig implements WebMvcConfigurer {
   @Override
   public void addCorsMappings(CorsRegistry registry) {
     registry.addMapping("/**")
-        .allowedOrigins("https:crypto-trackr.vercel.app")
+        .allowedOrigins("https:cr-crypto-trackr.vercel.app")
         .allowedMethods("GET");
   }
 }
